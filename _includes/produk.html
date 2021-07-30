@@ -1,0 +1,17 @@
+{% for produk in site.data.barang %}
+<div class="konten-produk">
+<a href="{{ produk.url }}" target="_blank">
+      <ion-card>
+        <img class="img-produk" src="{{ produk.img }}" />
+        <ion-card-header>
+<center>
+          <ion-card-subtitle>{{ produk.nama }}</ion-card-subtitle>
+<ion-chip outline color="danger">
+          <ion-card-title color="danger">Rp. {{ produk.harga }}</ion-card-title>
+</ion-chip>
+</center>
+        </ion-card-header>
+      </ion-card>
+</a>
+</div>
+{% endfor %}

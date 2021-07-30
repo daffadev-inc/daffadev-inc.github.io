@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="blog-post">
+<ion-card>
+<article class="post">
+  <ion-card-header class="ground">
+  <ion-card-title class="title-page">{{ page.title }}</ion-card-title>
+  </ion-card-header>
+        <center><img class="img" src="{{ page.image }}" /></center>
+  <ion-card-content>
+    {{ content }}
+  <ion-label class="label" color="danger">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </ion-label>
+  </ion-card-content>
+  {% include disqus.html %}
+</article>
+</ion-card>
+<!-- Post Navigation -->
+<div class="pagination">
+  {% if page.next.url %}<a class="back" href="{{ page.next.url | prepend: site.baseurl }}"><ion-chip outline color="primary">
+<ion-icon name="chevron-back-circle-outline"></ion-icon>
+          <ion-label>Previous</ion-label>
+        </ion-chip></a>{% endif %}
+  {% if page.previous.url %}<a class="next" href="{{ page.previous.url | prepend: site.baseurl }}"><ion-chip outline color="primary">
+          <ion-label>Next</ion-label>
+<ion-icon name="chevron-forward-circle-outline"></ion-icon>
+        </ion-chip></a>{% endif %}
+</div>
+</div>
+<div class="sidebar">
+  {% include aside.html %}
+</div>

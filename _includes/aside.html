@@ -1,0 +1,21 @@
+
+ <ion-list>
+        <ion-list-header>
+          Recent Posts
+        </ion-list-header>
+  {% for post in site.posts %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+<ion-item>
+          <ion-avatar slot="start">
+            <img class="chip" src="{{ post.image }}">
+          </ion-avatar>
+          <ion-label>
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.excerpt }}</p>
+          </ion-label>
+<ion-chip>
+            <ion-icon name="bookmark-outline"></ion-icon></ion-icon><ion-label> {{ post.category }}</ion-label>
+</ion-chip>
+        </ion-item></a>
+  {% endfor %}
+ </ion-list>
