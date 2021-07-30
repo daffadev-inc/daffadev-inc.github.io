@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutorial Install Nodejs Di Linux – DaffaDev – Blog Store from Somewhere</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Node.js adalah platform yang dibangun di atas JavaScript engine V8 Chrome.
+" />
+    <meta property="og:description" content="Node.js adalah platform yang dibangun di atas JavaScript engine V8 Chrome.
+" />
+    
+    <meta name="author" content="DaffaDev" />
+
+    
+    <meta property="og:title" content="Tutorial Install Nodejs Di Linux" />
+    <meta property="twitter:title" content="Tutorial Install Nodejs Di Linux" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="DaffaDev - Blog Store from Somewhere" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+<ion-app>
+
+    <ion-menu side="start" content-id="main-content">
+      <ion-header>
+        <ion-toolbar translucent>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item href="/">
+            <ion-icon name="home" slot="start"></ion-icon>
+            <ion-label>Home</ion-label>
+          </ion-item>
+          <ion-item href="/store">
+            <ion-icon name="desktop-outline" slot="start"></ion-icon>
+            <ion-label>Store</ion-label>
+          </ion-item>
+          <ion-item href="/about">
+            <ion-icon name="alert-circle" slot="start"></ion-icon>
+            <ion-label>About</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+<a href="/"><ion-chip class="box-shad" color="warning">
+  <ion-avatar><img class="chip" src="https://3.bp.blogspot.com/-Wbii_oHARYU/Xp0tLXsAdnI/AAAAAAAADJo/K8768leZ24Ypo6ZzbXj43a3T762pJE0WgCLcBGAsYHQ/s1600/dafadev-icon.png" /></ion-avatar>
+  <ion-label>DaffaDev</ion-label>
+</ion-chip></a>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+    <div class="wrapper-masthead">
+      <div class="banner">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img class="chip" src="https://3.bp.blogspot.com/-Wbii_oHARYU/Xp0tLXsAdnI/AAAAAAAADJo/K8768leZ24Ypo6ZzbXj43a3T762pJE0WgCLcBGAsYHQ/s1600/dafadev-icon.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">DaffaDev</a></h1>
+            <p class="site-description">Blog Store from Somewhere</p>
+          </div>
+<nav>
+    
+    
+<a href="/"><ion-chip color="">
+  <ion-icon name="chevron-back-outline"></ion-icon>
+  <ion-label>Back</ion-label>
+</ion-chip></a>
+<a href="/store"><ion-chip color="">
+  <ion-icon name="desktop-outline"></ion-icon>
+  <ion-label>Store</ion-label>
+</ion-chip></a>
+
+    
+</nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="blog-main">
+      <div class="blog-post">
+<ion-card>
+<article class="post">
+  <ion-card-header class="ground">
+  <ion-card-title class="title-page">Tutorial Install Nodejs Di Linux</ion-card-title>
+  </ion-card-header>
+        <center><img class="img" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" /></center>
+  <ion-card-content>
+    <p>Node.js adalah platform yang dibangun di atas JavaScript engine V8 Chrome.<!--more--> Node.js dapat digunakan untuk dengan mudah 
+untuk membangun aplikasi jaringan yang cepat dan memiliki skalabilitas yang tinggi. Versi terbaru ppa node.js dikelola oleh situs web resminya. 
+Sehingga untuk mulai instalasi harus menambahkan PPA ini ke sistem Debian 10 (Buster), Debian 9 (Stretch) Debian 8 (Jessie) dan Debian 7 (Wheezy). Pada tutorial ini kita akan menambahkan ppa sekaligus menginstal Nodejs &amp; NPM terbaru pada sistem Debian 10/9/8/7.</p>
+
+<center><img class="aligncenter size-full wp-image-5155 td-animation-stack-type0-2" src="https://cdn.linuxid.net/assets/media/img_5d0fdf03bedbf.png" alt="Install nodejs" width="500" height="170" /></center>
+
+<p>#Langkah 1 – Tambahkan Node.js PPA
+Anda wajib untuk menambahkan Node.js PPA ke sistem, PPa ini disediakan oleh situs web resmi Nodejs. Kita juga perlu menginstal paket software-properties-common jika belum diinstal. Anda dapat memilih untuk menginstal versi Node.js terbaru atau versi LTS.</p>
+
+<p><strong>Untuk Rilis Terbaru :</strong></p>
+<pre>sudo apt-get install curl software-properties-common
+curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
+</pre>
+<p><strong>Untuk Rilis LTS (Long Term Support)</strong></p>
+<pre>sudo apt-get install curl software-properties-common
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+</pre>
+
+<p>#Langkah 2 – Install Node.js di Debian Linux</p>
+
+<p>Setelah menambahkan file PPA yang diperlukan, mari kita instal paket Nodejs. NPM juga akan diinstal dengan node.js. Perintah ini juga akan menginstal banyak paket dependen lainnya di sistem Anda.</p>
+
+<pre>sudo apt-get install nodejs</pre>
+
+<p>#Langkah 3 – Periksa Versi Node.js
+Setelah menyelesaikan instalasi, periksa dan verifikasi versi Node.js dan NPM yang diinstal. Anda dapat menemukan detail lebih lanjut tentang versi saat ini di <a href="https://nodejs.org/download/" target="_blank" rel="noopener">situs web resmi node.js</a>.</p>
+<pre><strong>node -v</strong></pre>
+<p />
+
+<pre><strong>npm -v </strong>
+</pre>
+<p>#Opsional – Membuat Demo Web Server
+Ini merupakan langkah opsional. Jika Anda ingin menguji instalasi node.js Anda. Mari kita membuat server web dengan teks “Hello World!”. Buat file <strong>http_server.js</strong></p>
+<pre><strong>vim http_server.js</strong>
+</pre>
+<p>dan kemudian tambahkan konten berikut</p>
+<pre>var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(3000, "127.0.0.1");
+console.log('Server running at http://127.0.0.1:3000/');
+</pre>
+<p>Kemudian jalankan web server menggunakan perintah.</p>
+<pre>node http_server.js
+
+Server running at http://127.0.0.1:3000/
+</pre>
+<p>Web server telah berhasil berjalan di port 3000. Anda dapat mengakses url  <strong>http://127.0.0.1:3000/</strong> di web browser.</p>
+
+  <ion-label class="label" color="danger">
+    Written on January  3, 2020
+  </ion-label>
+  </ion-card-content>
+  
+</article>
+</ion-card>
+<!-- Post Navigation -->
+<div class="pagination">
+  <a class="back" href="/Install-APK-tool-di-Linux"><ion-chip outline color="primary">
+<ion-icon name="chevron-back-circle-outline"></ion-icon>
+          <ion-label>Previous</ion-label>
+        </ion-chip></a>
+  
+</div>
+</div>
+<div class="sidebar">
+  
+ <ion-list>
+        <ion-list-header>
+          Recent Posts
+        </ion-list-header>
+  
+        <a href="/Membersihkan-Sistem-Linux-Mint-Dengan-Script">
+<ion-item>
+          <ion-avatar slot="start">
+            <img class="chip" src="https://drive.google.com/uc?export=download&id=1_zML02ckENm6l9lOWPz1uF0M3Astg0ou">
+          </ion-avatar>
+          <ion-label>
+            <h2>Membersihkan Sistem Linux</h2>
+            <p><p>Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk</p>
+</p>
+          </ion-label>
+<ion-chip>
+            <ion-icon name="bookmark-outline"></ion-icon></ion-icon><ion-label> Linux</ion-label>
+</ion-chip>
+        </ion-item></a>
+  
+        <a href="/Install-APK-tool-di-Linux">
+<ion-item>
+          <ion-avatar slot="start">
+            <img class="chip" src="https://drive.google.com/uc?export=download&id=1tvkeGbgF7pfg9WRAEPiR9ZsMyAfDviMh">
+          </ion-avatar>
+          <ion-label>
+            <h2>Install APK tool di Linux</h2>
+            <p><p>Cara install APKtool di linux mint, buka terminal lalu Copy Paste Kode dibawah.</p>
+</p>
+          </ion-label>
+<ion-chip>
+            <ion-icon name="bookmark-outline"></ion-icon></ion-icon><ion-label> Linux</ion-label>
+</ion-chip>
+        </ion-item></a>
+  
+        <a href="/Tutorial-Install-Nodejs-&-NPM-di-Linux">
+<ion-item>
+          <ion-avatar slot="start">
+            <img class="chip" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg">
+          </ion-avatar>
+          <ion-label>
+            <h2>Tutorial Install Nodejs Di Linux</h2>
+            <p><p>Node.js adalah platform yang dibangun di atas JavaScript engine V8 Chrome.</p>
+</p>
+          </ion-label>
+<ion-chip>
+            <ion-icon name="bookmark-outline"></ion-icon></ion-icon><ion-label> Linux</ion-label>
+</ion-chip>
+        </ion-item></a>
+  
+ </ion-list>
+
+</div>
+
+    </div>
+
+        <div class="wrapper-footer">
+        <footer class="footer">
+          
+
+<a href="https://www.facebook.com/pacee"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/pacee"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/pacee"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+    </div>
+
+
+      </ion-content>
+
+</ion-app>
+    
+
+  </body>
+</html>

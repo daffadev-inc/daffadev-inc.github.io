@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Membersihkan Sistem Linux – DaffaDev – Blog Store from Somewhere</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk
+" />
+    <meta property="og:description" content="Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk
+" />
+    
+    <meta name="author" content="DaffaDev" />
+
+    
+    <meta property="og:title" content="Membersihkan Sistem Linux" />
+    <meta property="twitter:title" content="Membersihkan Sistem Linux" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="DaffaDev - Blog Store from Somewhere" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+<ion-app>
+
+    <ion-menu side="start" content-id="main-content">
+      <ion-header>
+        <ion-toolbar translucent>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item href="/">
+            <ion-icon name="home" slot="start"></ion-icon>
+            <ion-label>Home</ion-label>
+          </ion-item>
+          <ion-item href="/store">
+            <ion-icon name="desktop-outline" slot="start"></ion-icon>
+            <ion-label>Store</ion-label>
+          </ion-item>
+          <ion-item href="/about">
+            <ion-icon name="alert-circle" slot="start"></ion-icon>
+            <ion-label>About</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+<a href="/"><ion-chip class="box-shad" color="warning">
+  <ion-avatar><img class="chip" src="https://3.bp.blogspot.com/-Wbii_oHARYU/Xp0tLXsAdnI/AAAAAAAADJo/K8768leZ24Ypo6ZzbXj43a3T762pJE0WgCLcBGAsYHQ/s1600/dafadev-icon.png" /></ion-avatar>
+  <ion-label>DaffaDev</ion-label>
+</ion-chip></a>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+    <div class="wrapper-masthead">
+      <div class="banner">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img class="chip" src="https://3.bp.blogspot.com/-Wbii_oHARYU/Xp0tLXsAdnI/AAAAAAAADJo/K8768leZ24Ypo6ZzbXj43a3T762pJE0WgCLcBGAsYHQ/s1600/dafadev-icon.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">DaffaDev</a></h1>
+            <p class="site-description">Blog Store from Somewhere</p>
+          </div>
+<nav>
+    
+    
+<a href="/"><ion-chip color="">
+  <ion-icon name="chevron-back-outline"></ion-icon>
+  <ion-label>Back</ion-label>
+</ion-chip></a>
+<a href="/store"><ion-chip color="">
+  <ion-icon name="desktop-outline"></ion-icon>
+  <ion-label>Store</ion-label>
+</ion-chip></a>
+
+    
+</nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="blog-main">
+      <div class="blog-post">
+<ion-card>
+<article class="post">
+  <ion-card-header class="ground">
+  <ion-card-title class="title-page">Membersihkan Sistem Linux</ion-card-title>
+  </ion-card-header>
+        <center><img class="img" src="https://drive.google.com/uc?export=download&id=1_zML02ckENm6l9lOWPz1uF0M3Astg0ou" /></center>
+  <ion-card-content>
+    <p>Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk<!--more--> setelah anda meng-upgrade kernel beberapa kali saat bootloader berjalan seperti gambar di samping? Atau free space pada sistem anda terasa lebih kecil dari seharusnya? Itu bertanda bahwa sistem anda masih menyimpan “sampah”. Segera bersihkan sistem anda! Bagaimana caranya?</p>
+
+<p>Sebenarnya apa sih maksudnya file sampah? Maksudnya adalah file-file yang tidak digunakan dalam sistem. Beberapa aplikasi akan menyimpan data tambahan untuk digunakan kemudian atau sebagai backup. Namun jika anda sudah merasa nyaman dengan yang ada, atau tidak menggunakannya lagi, file-file tersebut akan terus menumpuk dan memakan memory anda atau bahkan bisa mengurangi efisiensi sistem anda. Jika anda seorang geek yang suka meng-install dan meng-uninstall aplikasi akan lebih banyak file sampah yang dihasilkan. Sehingga melakukan pembersihan (Cleaning) diperlukan untuk menjaga sistem anda lebih optimal dan memperbesar free space dalam hardisk anda.</p>
+
+<p>File-file sampah tersebut dapat berupa :</p>
+
+<p>-Cache dan history dari aplikasi
+-File Temporary
+-File backup
+-File dalam Trash
+-Paket orphans (tidak digunakan)
+-Konfigurasi tak terpakai
+-Kernel lama
+Banyak pengguna linux yang merekomendasikan Bleachbit sebagai cleaning tools dalam sistem linux. Namun sayangnya Bleachbit tidak dapat menghapus paket orphans, konfigurasi tak terpakai, dan kernel lama. Terutama untuk kernel lama, bukan hanya memperbesar penggunaan hardisk saja. Kernel lama yang sudah tidak pernah anda gunakan dapat bertumpuk pada bootloader. Ini tentu membuat bootloader terlihat kurang rapi.</p>
+
+<p>Untuk konfigurasi tak terpakai bisa anda hapus melalui perintah apt. Tapi apa anda tahu file tersebut apa saja? Berapa banyak kernel yang anda simpan? Mau ketik nama konfigurasi dan kernel satu persatu?</p>
+
+<p>Nah! Di sini saya memberikan script sederhana untuk mengatasi masalah tersebut. Script ini berasal dari sini dan dapat menghapus cache dari apt, konfigurasi lama, dan kernel lama. Berikut script tersebut :</p>
+
+<pre>
+
+#!/bin/bash
+
+
+OLDCONF=$(dpkg -l|grep "^rc"|awk '{print $2}')
+
+CURKERNEL=$(uname -r|sed 's/-*[a-z]//g'|sed 's/-386//g')
+
+LINUXPKG="linux-(image|headers|ubuntu-modules|restricted-modules)"
+
+METALINUXPKG="linux-(image|headers|restricted-modules)-(generic|i386|server|common|rt|xen)"
+
+OLDKERNELS=$(dpkg -l|awk '{print $2}'|grep -E $LINUXPKG |grep -vE $METALINUXPKG|grep -v $CURKERNEL)
+
+YELLOW="\033[1;33m"
+
+RED="\033[0;31m"
+
+ENDCOLOR="\033[0m"
+
+
+if [ $USER != root ]; then
+
+echo -e $RED"Error: must be root"
+
+echo -e $YELLOW"Exiting..."$ENDCOLOR
+
+exit 0
+
+fi
+
+
+echo -e $YELLOW"Cleaning apt cache..."$ENDCOLOR
+
+aptitude clean
+
+
+echo -e $YELLOW"Removing old config files..."$ENDCOLOR
+
+sudo aptitude purge $OLDCONF
+
+
+echo -e $YELLOW"Removing old kernels..."$ENDCOLOR
+
+sudo aptitude purge $OLDKERNELS
+
+
+echo -e $YELLOW"Emptying every trashes..."$ENDCOLOR
+
+rm -rf /home/*/.local/share/Trash/*/** &amp;&gt; /dev/null
+
+rm -rf /root/.local/share/Trash/*/** &amp;&gt; /dev/null
+
+
+echo -e $YELLOW"Script Finished!"$ENDCOLOR
+
+</pre>
+
+<p>Nah! untuk menggunakannya copy-paste script ini melalui text editor kesayangan anda semisal Gedit, lalu simpan ke dalam home folder anda dengan nama mintcleaner.sh (Sebenarnya nama bisa sesuka anda, asalkan extensinya tetap .sh).</p>
+
+<p>Lalu buka terminal, dan jalankan perintah</p>
+
+<p>sudo chmod +x mintcleaner.sh
+Sekarang script sudah siap anda pakai! Untuk menjalankan script tersebut gunakan perintah</p>
+
+<p>sudo sh mintcleaner.sh</p>
+
+<p>Menurutku, script ini juga bisa digunakan untuk distro Ubuntu dan derivatifnya.</p>
+
+  <ion-label class="label" color="danger">
+    Written on February 18, 2021
+  </ion-label>
+  </ion-card-content>
+  
+</article>
+</ion-card>
+<!-- Post Navigation -->
+<div class="pagination">
+  
+  <a class="next" href="/Install-APK-tool-di-Linux"><ion-chip outline color="primary">
+          <ion-label>Next</ion-label>
+<ion-icon name="chevron-forward-circle-outline"></ion-icon>
+        </ion-chip></a>
+</div>
+</div>
+<div class="sidebar">
+  
+ <ion-list>
+        <ion-list-header>
+          Recent Posts
+        </ion-list-header>
+  
+        <a href="/Membersihkan-Sistem-Linux-Mint-Dengan-Script">
+<ion-item>
+          <ion-avatar slot="start">
+            <img class="chip" src="https://drive.google.com/uc?export=download&id=1_zML02ckENm6l9lOWPz1uF0M3Astg0ou">
+          </ion-avatar>
+          <ion-label>
+            <h2>Membersihkan Sistem Linux</h2>
+            <p><p>Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk</p>
+</p>
+          </ion-label>
+<ion-chip>
+            <ion-icon name="bookmark-outline"></ion-icon></ion-icon><ion-label> Linux</ion-label>
+</ion-chip>
+        </ion-item></a>
+  
+        <a href="/Install-APK-tool-di-Linux">
+<ion-item>
+          <ion-avatar slot="start">
+            <img class="chip" src="https://drive.google.com/uc?export=download&id=1tvkeGbgF7pfg9WRAEPiR9ZsMyAfDviMh">
+          </ion-avatar>
+          <ion-label>
+            <h2>Install APK tool di Linux</h2>
+            <p><p>Cara install APKtool di linux mint, buka terminal lalu Copy Paste Kode dibawah.</p>
+</p>
+          </ion-label>
+<ion-chip>
+            <ion-icon name="bookmark-outline"></ion-icon></ion-icon><ion-label> Linux</ion-label>
+</ion-chip>
+        </ion-item></a>
+  
+        <a href="/Tutorial-Install-Nodejs-&-NPM-di-Linux">
+<ion-item>
+          <ion-avatar slot="start">
+            <img class="chip" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg">
+          </ion-avatar>
+          <ion-label>
+            <h2>Tutorial Install Nodejs Di Linux</h2>
+            <p><p>Node.js adalah platform yang dibangun di atas JavaScript engine V8 Chrome.</p>
+</p>
+          </ion-label>
+<ion-chip>
+            <ion-icon name="bookmark-outline"></ion-icon></ion-icon><ion-label> Linux</ion-label>
+</ion-chip>
+        </ion-item></a>
+  
+ </ion-list>
+
+</div>
+
+    </div>
+
+        <div class="wrapper-footer">
+        <footer class="footer">
+          
+
+<a href="https://www.facebook.com/pacee"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/pacee"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/pacee"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+    </div>
+
+
+      </ion-content>
+
+</ion-app>
+    
+
+  </body>
+</html>
