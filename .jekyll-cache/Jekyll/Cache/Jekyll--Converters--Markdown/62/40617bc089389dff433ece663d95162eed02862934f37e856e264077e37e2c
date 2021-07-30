@@ -1,13 +1,5 @@
----
-layout: post
-image: https://drive.google.com/uc?export=download&id=1tvkeGbgF7pfg9WRAEPiR9ZsMyAfDviMh
-title: Install APK tool di Linux
-category: Linux
-excerpt_separator: <!--more-->
----
-
-Cara install APKtool di linux mint, buka terminal lalu Copy Paste Kode dibawah.<!--more-->
-## Download apktool versi terbaru di [iBotPeaches](https://bitbucket.org/iBotPeaches/apktool/downloads)
+I"Þ<p>Cara install APKtool di linux mint, buka terminal lalu Copy Paste Kode dibawah.<!--more--></p>
+<h2 id="download-versi-terbaru-di-ibotpeaches">Download versi terbaru di <a href="https://bitbucket.org/iBotPeaches/apktool/downloads">iBotPeaches</a></h2>
 <pre>
 export apktool_version=2.3.1
 
@@ -20,8 +12,9 @@ sudo sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/sc
 sudo chmod +x /usr/local/bin/apktool
 </pre>
 
-## To use:
+<h2 id="to-use">To use:</h2>
 
 <pre>
 apktool d TelephonyProvider.apk -o TelephonyProvider
 </pre>
+:ET

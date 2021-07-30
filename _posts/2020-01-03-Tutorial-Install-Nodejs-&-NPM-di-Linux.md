@@ -32,14 +32,12 @@ Setelah menambahkan file PPA yang diperlukan, mari kita instal paket Nodejs. NPM
 
 #Langkah&nbsp;3 – Periksa Versi Node.js
 Setelah menyelesaikan instalasi, periksa dan verifikasi versi Node.js dan NPM yang diinstal. Anda dapat menemukan detail lebih lanjut tentang versi saat ini di <a href="https://nodejs.org/download/" target="_blank" rel="noopener">situs web resmi node.js</a>.
-<pre><strong>node -v</strong></pre>
+<pre>node -v</pre>
 <p/>
-<pre><strong>npm -v </strong>
-</pre>
+<pre>npm -v</pre>
 #Opsional – Membuat Demo Web Server
 Ini merupakan langkah opsional. Jika Anda ingin menguji instalasi node.js Anda. Mari kita membuat server web dengan teks “Hello World!”. Buat file <strong>http_server.js</strong>
-<pre><strong>vim http_server.js</strong>
-</pre>
+<pre>vim http_server.js</pre>
 dan kemudian tambahkan konten berikut
 <pre>var http = require('http');
 http.createServer(function (req, res) {

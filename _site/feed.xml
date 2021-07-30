@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-30T14:52:15+07:00</updated><id>/feed.xml</id><title type="html">DaffaDev</title><subtitle>Blog Store from Somewhere</subtitle><entry><title type="html">Membersihkan Sistem Linux</title><link href="/Membersihkan-Sistem-Linux-Mint-Dengan-Script" rel="alternate" type="text/html" title="Membersihkan Sistem Linux" /><published>2021-02-18T00:00:00+07:00</published><updated>2021-02-18T00:00:00+07:00</updated><id>/Membersihkan-Sistem-Linux-Mint-Dengan-Script</id><content type="html" xml:base="/Membersihkan-Sistem-Linux-Mint-Dengan-Script">&lt;p&gt;Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk&lt;!--more--&gt; setelah anda meng-upgrade kernel beberapa kali saat bootloader berjalan seperti gambar di samping? Atau free space pada sistem anda terasa lebih kecil dari seharusnya? Itu bertanda bahwa sistem anda masih menyimpan “sampah”. Segera bersihkan sistem anda! Bagaimana caranya?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-30T18:16:31+07:00</updated><id>/feed.xml</id><title type="html">DaffaDev</title><subtitle>Blog from Somewhere</subtitle><entry><title type="html">Membersihkan Sistem Linux</title><link href="/Membersihkan-Sistem-Linux-Mint-Dengan-Script" rel="alternate" type="text/html" title="Membersihkan Sistem Linux" /><published>2021-02-18T00:00:00+07:00</published><updated>2021-02-18T00:00:00+07:00</updated><id>/Membersihkan-Sistem-Linux-Mint-Dengan-Script</id><content type="html" xml:base="/Membersihkan-Sistem-Linux-Mint-Dengan-Script">&lt;p&gt;Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk&lt;!--more--&gt; setelah anda meng-upgrade kernel beberapa kali saat bootloader berjalan seperti gambar di samping? Atau free space pada sistem anda terasa lebih kecil dari seharusnya? Itu bertanda bahwa sistem anda masih menyimpan “sampah”. Segera bersihkan sistem anda! Bagaimana caranya?&lt;/p&gt;
 
 &lt;p&gt;Sebenarnya apa sih maksudnya file sampah? Maksudnya adalah file-file yang tidak digunakan dalam sistem. Beberapa aplikasi akan menyimpan data tambahan untuk digunakan kemudian atau sebagai backup. Namun jika anda sudah merasa nyaman dengan yang ada, atau tidak menggunakannya lagi, file-file tersebut akan terus menumpuk dan memakan memory anda atau bahkan bisa mengurangi efisiensi sistem anda. Jika anda seorang geek yang suka meng-install dan meng-uninstall aplikasi akan lebih banyak file sampah yang dihasilkan. Sehingga melakukan pembersihan (Cleaning) diperlukan untuk menjaga sistem anda lebih optimal dan memperbesar free space dalam hardisk anda.&lt;/p&gt;
 
@@ -86,7 +86,7 @@ Sekarang script sudah siap anda pakai! Untuk menjalankan script tersebut gunakan
 &lt;p&gt;sudo sh mintcleaner.sh&lt;/p&gt;
 
 &lt;p&gt;Menurutku, script ini juga bisa digunakan untuk distro Ubuntu dan derivatifnya.&lt;/p&gt;</content><author><name></name></author><category term="Linux" /><summary type="html">Merasa sistem linux anda terasa lebih berat? Kernel yang bertumpuk</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://drive.google.com/uc?export=download&amp;id=1_zML02ckENm6l9lOWPz1uF0M3Astg0ou" /><media:content medium="image" url="https://drive.google.com/uc?export=download&amp;id=1_zML02ckENm6l9lOWPz1uF0M3Astg0ou" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Install APK tool di Linux</title><link href="/Install-APK-tool-di-Linux" rel="alternate" type="text/html" title="Install APK tool di Linux" /><published>2020-03-13T00:00:00+07:00</published><updated>2020-03-13T00:00:00+07:00</updated><id>/Install-APK-tool-di-Linux</id><content type="html" xml:base="/Install-APK-tool-di-Linux">&lt;p&gt;Cara install APKtool di linux mint, buka terminal lalu Copy Paste Kode dibawah.&lt;!--more--&gt;&lt;/p&gt;
-&lt;h1 id=&quot;get-latest-version-from-httpsbitbucketorgibotpeachesapktooldownloads&quot;&gt;Get latest version from https://bitbucket.org/iBotPeaches/apktool/downloads&lt;/h1&gt;
+&lt;h2 id=&quot;download-apktool-versi-terbaru-di-ibotpeaches&quot;&gt;Download apktool versi terbaru di &lt;a href=&quot;https://bitbucket.org/iBotPeaches/apktool/downloads&quot;&gt;iBotPeaches&lt;/a&gt;&lt;/h2&gt;
 &lt;pre&gt;
 export apktool_version=2.3.1
 
@@ -99,9 +99,11 @@ sudo sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/sc
 sudo chmod +x /usr/local/bin/apktool
 &lt;/pre&gt;
 
-&lt;h1 id=&quot;to-use&quot;&gt;To use:&lt;/h1&gt;
+&lt;h2 id=&quot;to-use&quot;&gt;To use:&lt;/h2&gt;
 
-&lt;h1 id=&quot;apktool-d-telephonyproviderapk--o-telephonyprovider&quot;&gt;apktool d TelephonyProvider.apk -o TelephonyProvider&lt;/h1&gt;</content><author><name></name></author><category term="Linux" /><summary type="html">Cara install APKtool di linux mint, buka terminal lalu Copy Paste Kode dibawah.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://drive.google.com/uc?export=download&amp;id=1tvkeGbgF7pfg9WRAEPiR9ZsMyAfDviMh" /><media:content medium="image" url="https://drive.google.com/uc?export=download&amp;id=1tvkeGbgF7pfg9WRAEPiR9ZsMyAfDviMh" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tutorial Install Nodejs Di Linux</title><link href="/Tutorial-Install-Nodejs-&-NPM-di-Linux" rel="alternate" type="text/html" title="Tutorial Install Nodejs Di Linux" /><published>2020-01-03T00:00:00+07:00</published><updated>2020-01-03T00:00:00+07:00</updated><id>/Tutorial-Install-Nodejs-&amp;-NPM-di-Linux</id><content type="html" xml:base="/Tutorial-Install-Nodejs-&amp;-NPM-di-Linux">&lt;p&gt;Node.js adalah platform yang dibangun di atas JavaScript engine V8 Chrome.&lt;!--more--&gt; Node.js dapat digunakan untuk dengan mudah 
+&lt;pre&gt;
+apktool d TelephonyProvider.apk -o TelephonyProvider
+&lt;/pre&gt;</content><author><name></name></author><category term="Linux" /><summary type="html">Cara install APKtool di linux mint, buka terminal lalu Copy Paste Kode dibawah.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://drive.google.com/uc?export=download&amp;id=1tvkeGbgF7pfg9WRAEPiR9ZsMyAfDviMh" /><media:content medium="image" url="https://drive.google.com/uc?export=download&amp;id=1tvkeGbgF7pfg9WRAEPiR9ZsMyAfDviMh" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tutorial Install Nodejs Di Linux</title><link href="/Tutorial-Install-Nodejs-&-NPM-di-Linux" rel="alternate" type="text/html" title="Tutorial Install Nodejs Di Linux" /><published>2020-01-03T00:00:00+07:00</published><updated>2020-01-03T00:00:00+07:00</updated><id>/Tutorial-Install-Nodejs-&amp;-NPM-di-Linux</id><content type="html" xml:base="/Tutorial-Install-Nodejs-&amp;-NPM-di-Linux">&lt;p&gt;Node.js adalah platform yang dibangun di atas JavaScript engine V8 Chrome.&lt;!--more--&gt; Node.js dapat digunakan untuk dengan mudah 
 untuk membangun aplikasi jaringan yang cepat dan memiliki skalabilitas yang tinggi. Versi terbaru ppa node.js dikelola oleh situs web resminya. 
 Sehingga untuk mulai instalasi harus menambahkan PPA ini ke sistem Debian 10 (Buster), Debian 9 (Stretch) Debian 8 (Jessie) dan Debian 7 (Wheezy). Pada tutorial ini kita akan menambahkan ppa sekaligus menginstal Nodejs &amp;amp; NPM terbaru pada sistem Debian 10/9/8/7.&lt;/p&gt;
 
@@ -127,15 +129,13 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
 
 &lt;p&gt;#Langkah 3 – Periksa Versi Node.js
 Setelah menyelesaikan instalasi, periksa dan verifikasi versi Node.js dan NPM yang diinstal. Anda dapat menemukan detail lebih lanjut tentang versi saat ini di &lt;a href=&quot;https://nodejs.org/download/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;situs web resmi node.js&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;strong&gt;node -v&lt;/strong&gt;&lt;/pre&gt;
+&lt;pre&gt;node -v&lt;/pre&gt;
 &lt;p /&gt;
 
-&lt;pre&gt;&lt;strong&gt;npm -v &lt;/strong&gt;
-&lt;/pre&gt;
+&lt;pre&gt;npm -v&lt;/pre&gt;
 &lt;p&gt;#Opsional – Membuat Demo Web Server
 Ini merupakan langkah opsional. Jika Anda ingin menguji instalasi node.js Anda. Mari kita membuat server web dengan teks “Hello World!”. Buat file &lt;strong&gt;http_server.js&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;strong&gt;vim http_server.js&lt;/strong&gt;
-&lt;/pre&gt;
+&lt;pre&gt;vim http_server.js&lt;/pre&gt;
 &lt;p&gt;dan kemudian tambahkan konten berikut&lt;/p&gt;
 &lt;pre&gt;var http = require('http');
 http.createServer(function (req, res) {
