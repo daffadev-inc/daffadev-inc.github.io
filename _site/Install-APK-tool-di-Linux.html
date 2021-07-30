@@ -45,10 +45,10 @@
           </ion-buttons>
 
 
-<a href="/"><ion-chip color="">
+<ion-chip color="warning" onclick="goBack()">
   <ion-icon name="chevron-back-outline"></ion-icon>
   <ion-label>Kembali</ion-label>
-</ion-chip></a>
+</ion-chip>
 
         </ion-toolbar>
       </ion-header>
@@ -78,7 +78,7 @@ sudo sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/sc
 sudo chmod +x /usr/local/bin/apktool
 </pre>
 
-<h2 id="to-use">To use:</h2>
+<h2 id="cara-menggunakannya">Cara menggunakannya:</h2>
 
 <pre>
 apktool d TelephonyProvider.apk -o TelephonyProvider
@@ -183,6 +183,12 @@ apktool d TelephonyProvider.apk -o TelephonyProvider
       </ion-content>
 
 </ion-app>
+    <script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
     
 
   </body>

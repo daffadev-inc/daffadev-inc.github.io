@@ -45,10 +45,10 @@
           </ion-buttons>
 
 
-<a href="/"><ion-chip color="">
+<ion-chip color="warning" onclick="goBack()">
   <ion-icon name="chevron-back-outline"></ion-icon>
   <ion-label>Kembali</ion-label>
-</ion-chip></a>
+</ion-chip>
 
         </ion-toolbar>
       </ion-header>
@@ -208,6 +208,12 @@ Server running at http://127.0.0.1:3000/
       </ion-content>
 
 </ion-app>
+    <script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
     
 
   </body>

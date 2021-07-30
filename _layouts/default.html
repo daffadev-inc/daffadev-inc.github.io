@@ -33,10 +33,10 @@
 </ion-chip></a>
 {% endif %}
 {% if page.layout == "post" %}
-<a href="{{ site.baseurl }}/"><ion-chip color="">
+<ion-chip color="warning" onclick="goBack()">
   <ion-icon name="chevron-back-outline"></ion-icon>
   <ion-label>Kembali</ion-label>
-</ion-chip></a>
+</ion-chip>
 {% endif %}
         </ion-toolbar>
       </ion-header>
@@ -73,6 +73,7 @@
       </ion-content>
 
 </ion-app>
+    {% include script-js.html %}
     {% include analytics.html %}
   </body>
 </html>

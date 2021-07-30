@@ -45,10 +45,10 @@
           </ion-buttons>
 
 
-<a href="/"><ion-chip color="">
+<ion-chip color="warning" onclick="goBack()">
   <ion-icon name="chevron-back-outline"></ion-icon>
   <ion-label>Kembali</ion-label>
-</ion-chip></a>
+</ion-chip>
 
         </ion-toolbar>
       </ion-header>
@@ -249,6 +249,12 @@ Sekarang script sudah siap anda pakai! Untuk menjalankan script tersebut gunakan
       </ion-content>
 
 </ion-app>
+    <script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
     
 
   </body>

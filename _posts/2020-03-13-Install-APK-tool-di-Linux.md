@@ -20,7 +20,7 @@ sudo sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/sc
 sudo chmod +x /usr/local/bin/apktool
 </pre>
 
-## To use:
+## Cara menggunakannya:
 
 <pre>
 apktool d TelephonyProvider.apk -o TelephonyProvider
