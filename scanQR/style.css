@@ -6,7 +6,6 @@ img{
     border:0;
 }
 #main{
-    margin: 15px auto;
     background:white;
     overflow: auto;
 	width: 100%;
@@ -93,14 +92,16 @@ li a{
 .tsel{
     padding:0;
 }
+}
 .btn{
       margin-top:5px;
       margin-bottom:10px;
-      padding:5px;
+      padding:15px;
+	  font-size:25px;
       background-color: #f2f2f2;
       color: #000000;
-      border-radius:3px;
-      width: 150px;
+      border-radius:5px;
+      width: 200px;
       cursor: pointer;
 	  text-decoration:none;
     }
