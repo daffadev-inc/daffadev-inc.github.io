@@ -102,4 +102,5 @@ li a{
       border-radius:3px;
       width: 150px;
       cursor: pointer;
+	text-decoration:none;
     }
